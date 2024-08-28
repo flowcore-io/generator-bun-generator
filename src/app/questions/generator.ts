@@ -54,9 +54,9 @@ const generator: YoTemplate<BunAppOptions, AnswersGenerator, TemplateValuesGener
     folder: answers.folder,
     name: toTemplateString(answers.name),
     scope: toTemplateString(answers.scope),
-    packageName: answers.scope ? `@${answers.scope}/${answers.name}` : answers.name,
+    packageName: answers.scope ? `@${answers.scope}/generator-${answers.name}` : `generator-${answers.name}`,
     description: answers.description,
-    generatorName: answers.name,
+    generatorName: answers.scope ? `@${answers.scope}/${answers.name}` : `${answers.name}`,
   }),
 }
 
