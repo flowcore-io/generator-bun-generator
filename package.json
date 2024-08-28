@@ -1,6 +1,6 @@
 {
   "name": "@flowcore/generator-bun-generator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Yeoman Generator for creating a Bun generator",
   "type": "module",
   "license": "MIT",

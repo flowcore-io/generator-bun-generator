@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.0.1](https://github.com/flowcore-io/generator-bun-generator/compare/v1.0.0...v1.0.1) (2024-08-28)
+
+
+### Bug Fixes
+
+* fixed the template variables for the generated generator ([7a112fd](https://github.com/flowcore-io/generator-bun-generator/commit/7a112fd2297dcaac98673e64abd91749737d3617))
+* updated answer options interface ([70e5138](https://github.com/flowcore-io/generator-bun-generator/commit/70e5138f3b6ca9fd0f4dd6f9c08e3352bea20f6a))
+* updated readme ([a296439](https://github.com/flowcore-io/generator-bun-generator/commit/a296439b1144b20ff3d9b58d4b8b1933ea003728))
+* updated readme and generator template ([a782a16](https://github.com/flowcore-io/generator-bun-generator/commit/a782a165330ba0db18c1e74d4a75c31da85dcbf2))
+
 ## 1.0.0 (2024-08-28)
 
 
