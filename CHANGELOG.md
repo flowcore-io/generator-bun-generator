@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.0 (2024-08-28)
+
+
+### Features
+
+* initial commit ([06e43e8](https://github.com/flowcore-io/generator-bun-generator/commit/06e43e806511fd71b1843e650b505a9fc1ab7650))
+
 ## [1.0.7](https://github.com/flowcore-io/generator-bun-app/compare/v1.0.6...v1.0.7) (2024-08-23)
 
 
