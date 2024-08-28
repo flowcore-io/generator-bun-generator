@@ -14,7 +14,11 @@ npm install -g <%= packageName %>
 ### Using the generator
 ```bash
 # Will create a new app in ./test-app directory
-yo <%= scope %>/<%= generatorName %> test-app
+<% if (scope) { %>
+yo <%= scope %>/<%= generatorName %> test-generator
+<% } else { %>
+yo <%= generatorName %> test-generator
+<% } %>
 
 # Consult the README.md in the ./test-app directory for more information
 ```
