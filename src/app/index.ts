@@ -42,23 +42,8 @@ export default class GeneratorGenerator extends Generator<BaseOptions & Generato
   }
 
   async writing() {
-    console.log(this.templateValues)
-
     this.fs.copyTpl(this.templatePath("generator/**/*"), this.destinationPath(this.answers.folder), this.templateValues)
     this.fs.copyTpl(this.templatePath("generator/.*"), this.destinationPath(this.answers.folder), this.templateValues)
-
-    // this.fs.copy(
-    //   this.destinationPath(this.answers.folder, ".env.example"),
-    //   this.destinationPath(this.answers.folder, ".env"),
-    // )
-
-    // if (this.answers.postgres) {
-    //   this.fs.copyTpl(
-    //     this.templatePath("postgres/**/*"),
-    //     this.destinationPath(this.answers.folder),
-    //     this.templateValues,
-    //   )
-    // }
   }
 
   async install() {
