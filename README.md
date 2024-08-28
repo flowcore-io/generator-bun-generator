@@ -1,6 +1,6 @@
-# @flowcore/generator-bun-generator
+# generator-bun-generator
 
-A Yeoman Generator for creating a Bun generator
+A Yeoman Generator for creating a Yeoman Generator that is written with Bun
 
 ### Install
 ```bash
@@ -8,13 +8,13 @@ A Yeoman Generator for creating a Bun generator
 npm install -g yo
 
 # Install the generator
-npm install -g @flowcore/generator-bun-generator
+npm install -g generator-bun-generator
 ```
 
 ### Using the generator
 ```bash
 # Will create a new app in ./test-app directory
-yo @flowcore/bun-generator test-generator
+yo bun-generator test-generator
 
 # Consult the README.md in the ./test-generator directory for more information
 ```
