@@ -1,4 +1,4 @@
-import type { BunAppOptions } from ".."
+import type { GeneratorOptions } from ".."
 import { type TemplateString, isKebabCase, toTemplateString, validate } from "../helpers"
 import type { YoTemplate } from "../types"
 
@@ -18,7 +18,7 @@ export interface TemplateValuesGenerator {
   description: string
 }
 
-const generator: YoTemplate<BunAppOptions, AnswersGenerator, TemplateValuesGenerator> = {
+const generator: YoTemplate<GeneratorOptions, AnswersGenerator, TemplateValuesGenerator> = {
   questions: async (generator) => {
     const folder = generator.options.folder
     const answers = await generator.prompt<AnswersGenerator>([
