@@ -1,6 +1,6 @@
-# @flowcore/generator-bun-app
+# <%= packageName %>
 
-A Yeoman Generator for creating a Bun application with Flowcore's IDD approach
+<%= description %>
 
 ### Install
 ```bash
@@ -8,13 +8,13 @@ A Yeoman Generator for creating a Bun application with Flowcore's IDD approach
 npm install -g yo
 
 # Install the generator
-npm install -g @flowcore/generator-bun-app
+npm install -g <%= packageName %>
 ```
 
 ### Using the generator
 ```bash
 # Will create a new app in ./test-app directory
-yo @flowcore/bun-app test-app
+yo <%= scope %>/<%= generatorName %> test-app
 
 # Consult the README.md in the ./test-app directory for more information
 ```

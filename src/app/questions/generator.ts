@@ -16,6 +16,7 @@ export interface TemplateValuesGenerator {
   scope: TemplateString
   packageName: string
   description: string
+  generatorName: string
 }
 
 const generator: YoTemplate<BunAppOptions, AnswersGenerator, TemplateValuesGenerator> = {
@@ -55,6 +56,7 @@ const generator: YoTemplate<BunAppOptions, AnswersGenerator, TemplateValuesGener
     scope: toTemplateString(answers.scope),
     packageName: answers.scope ? `@${answers.scope}/${answers.name}` : answers.name,
     description: answers.description,
+    generatorName: answers.name,
   }),
 }
 
