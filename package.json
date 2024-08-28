@@ -1,6 +1,6 @@
 {
   "name": "generator-bun-generator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Yeoman Generator for creating a Yeoman Generator that is written with Bun",
   "type": "module",
   "license": "MIT",
@@ -14,8 +14,16 @@
     "type": "git",
     "url": "https://github.com/flowcore-io/generator-bun-generator.git"
   },
-  "files": ["generators", "templates"],
-  "keywords": ["yeoman-generator", "bun", "flowcore", "idd"],
+  "files": [
+    "generators",
+    "templates"
+  ],
+  "keywords": [
+    "yeoman-generator",
+    "bun",
+    "flowcore",
+    "idd"
+  ],
   "scripts": {
     "dev": "rm -rf ./generators && bun build --watch --external=yeoman-generator --outdir=./generators --target=node ./src/*",
     "build": "rm -rf ./generators && bun build --external=yeoman-generator --outdir=./generators --target=node ./src/*",
