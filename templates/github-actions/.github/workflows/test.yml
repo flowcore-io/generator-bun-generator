@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          token: ${{ secrets.FLOWCORE_MACHINE_GITHUB_TOKEN }}
+          token: ${{ secrets.<%= githubActionsToken %> }}
           submodules: true
       - name: Setup Bun environment
         uses: oven-sh/setup-bun@v2

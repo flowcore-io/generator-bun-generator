@@ -18,7 +18,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          token: ${{ secrets.FLOWCORE_MACHINE_GITHUB_TOKEN }}
+          token: ${{ secrets.<%= githubActionsToken %> }}
           submodules: true
       - name: Extract version from package.json
         uses: sergeysova/jq-action@v2

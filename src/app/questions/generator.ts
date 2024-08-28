@@ -43,7 +43,15 @@ const generator: YoTemplate<GeneratorOptions, AnswersGenerator, TemplateValuesGe
         message: "Generator description",
         default: "",
       },
+      {
+        type: "checkbox",
+        name: "features",
+        message: "Which features would you like to add?",
+        choices: [{ name: "github-actions", value: "github-actions", checked: generator.options.githubActions }],
+      },
     ])
+
+    generator.options.githubActions = answers.features.includes("github-actions")
 
     return {
       ...answers,
