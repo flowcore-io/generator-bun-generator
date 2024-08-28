@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.3](https://github.com/flowcore-io/generator-bun-generator/compare/v1.0.2...v1.0.3) (2024-08-28)
+
+
+### Bug Fixes
+
+* separated github actions from the core ([a25a760](https://github.com/flowcore-io/generator-bun-generator/commit/a25a7608c687cb9836f607c1f3df4373ff79971e))
+* updated docs with new package name ([856f29e](https://github.com/flowcore-io/generator-bun-generator/commit/856f29e1485db9675bb28f428681107ae703d899))
+
 ## [1.0.2](https://github.com/flowcore-io/generator-bun-generator/compare/v1.0.1...v1.0.2) (2024-08-28)
 
 
