@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/flowcore-io/generator-bun-generator/compare/v1.0.1...v1.0.2) (2024-08-28)
+
+
+### Bug Fixes
+
+* changed the package name to be generator-bun-generator to be discoverable by yeoman ([acd6aef](https://github.com/flowcore-io/generator-bun-generator/commit/acd6aeffe369672bf54e6bba2b11e75da60be2d2))
+
 ## [1.0.1](https://github.com/flowcore-io/generator-bun-generator/compare/v1.0.0...v1.0.1) (2024-08-28)
 
 
