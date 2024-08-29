@@ -1,6 +1,6 @@
 {
   "name": "generator-bun-generator",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A Yeoman Generator for creating a Yeoman Generator that is written with Bun",
   "type": "module",
   "license": "MIT",
