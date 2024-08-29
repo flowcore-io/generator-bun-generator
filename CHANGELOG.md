@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.5](https://github.com/flowcore-io/generator-bun-generator/compare/v1.0.4...v1.0.5) (2024-08-29)
+
+
+### Bug Fixes
+
+* copy .gitignore for correct template path ([2bce5ef](https://github.com/flowcore-io/generator-bun-generator/commit/2bce5ef541e3376d7e380469f6fc879275494fd6))
+
 ## [1.0.4](https://github.com/flowcore-io/generator-bun-generator/compare/v1.0.3...v1.0.4) (2024-08-28)
 
 
