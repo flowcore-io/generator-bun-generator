@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.6](https://github.com/flowcore-io/generator-bun-generator/compare/v1.0.5...v1.0.6) (2024-08-29)
+
+
+### Bug Fixes
+
+* **template:** :bug: changed how .gitignore is copied over ([95ac2da](https://github.com/flowcore-io/generator-bun-generator/commit/95ac2da45ab53fbf57663ef1ec0a2a58a0551764))
+
 ## [1.0.5](https://github.com/flowcore-io/generator-bun-generator/compare/v1.0.4...v1.0.5) (2024-08-29)
 
 
