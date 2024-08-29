@@ -54,7 +54,7 @@ export default class GeneratorGenerator extends Generator<BaseOptions & Generato
     this.fs.copyTpl(this.templatePath("generator/.*"), this.destinationPath(this.answers.folder), this.templateValues)
 
     this.fs.copy(
-      this.destinationPath(this.answers.folder, ".gitignore"),
+      this.templatePath("generator/.gitignore"),
       this.destinationPath(this.answers.folder, ".gitignore"),
     )
 
